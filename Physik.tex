@@ -1,0 +1,46 @@
+% !TEX TS-program = pdflatex
+% !TeX encoding = UTF-8
+% !TeX spellcheck = de_CH
+
+% Main
+
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage[makeroom]{cancel}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+	\definecolor{orange}{RGB}{255,127,0}
+	
+\newcommand{\R}[0]{\text{\rmfamily I\!R}}
+\newcommand{\D}[0]{\text{\rmfamily I\!D}}
+
+\newcommand{\dx}[0]{\mathrm{d}x}
+\newcommand{\dy}[0]{\mathrm{d}y}
+\newcommand{\dt}[0]{\mathrm{d}t}
+\newcommand{\df}[0]{\mathrm{d}f}
+
+\newcommand{\abs}[1]{\lvert #1\rvert}
+\newcommand{\kom}[1]{\glqq{}#1\grqq{}}
+
+%\title{Analysis (Spick)}
+%\author{Westernwolf}
+
+\begin{document}
+
+%\maketitle
+%\newpage
+
+\tableofcontents
+\newpage
+
+\input{sublatex/Einheiten.tex}
+
+\input{sublatex/Kap_8.tex}
+ 
+
+\end{document}
+
